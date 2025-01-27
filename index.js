@@ -10,10 +10,8 @@ let isAlive = false
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
-let playerEl = document.getElementById("player-el")
 
 console.log(messageEl)
-playerEl.textContent = player.name + ": $" + player.credits
 
 function startGame(){
     let first_card = getRandomCard()
